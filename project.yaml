@@ -1,0 +1,70 @@
+# .project metadata for openGemini
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "opengemini"
+name: "openGemini"
+description: "openGemini is an open source distributed time series DBMS with high concurrency, high performance, and high scalability, focusing on the storage and analysis of massive observability data."
+type: "project"
+project_lead: "xiangyu5632" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#open-gemini"
+    link: "https://cloud-native.slack.com/messages/open-gemini"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2024-07-09T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/137" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/openGemini/openGemini"
+
+website: "https://www.opengemini.org"
+
+artwork: "https://landscape.cncf.io/logos/opengemini.svg"
+
+adopters:
+  path: "https://github.com/openGemini/openGemini/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "openGemini/openGemini"
+
+social:
+  twitter: "https://twitter.com/OpenGemini"
+
+security:
+  policy:
+    path: "https://github.com/openGemini/openGemini/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/openGemini/openGemini/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/openGemini/openGemini/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/openGemini/openGemini/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/openGemini/openGemini/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/openGemini/openGemini/blob/main/README.md"
+
+landscape:
+  category: "App Definition and Development"
+  subcategory: "Database"
+
+# CLOMonitor Score: 71/100
+# Documentation: 75 | License: 90 | Best Practices: 62 | Security: 48

@@ -1,0 +1,16 @@
+# Maintainer roster for openGemini
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+#  Maintainers: Please connect your GitHub handle to your LFID on openprofile.dev to enable automatic access to CNCF resources. The system will use your primary email address for setup.
+maintainers:
+  - project_id: "opengemini"
+    org: "openGemini"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - xiangyu5632
+          - shilinlee
+          - fx408
+          - MrSanZhi
+          - hezhangjian
